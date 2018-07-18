@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WP_Background_Process</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.JS.html">
+						JS					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Value.html">
+						Value					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Parsedown.html">Parsedown</a></li>
+				<li><a href="class-WP_Async_Request.html">WP_Async_Request</a></li>
+				<li class="active"><a href="class-WP_Background_Process.html">WP_Background_Process</a></li>
+				<li><a href="class-WPOnion_modern_Theme.html">WPOnion_modern_Theme</a></li>
+				<li><a href="class-WPOnion_wp_Theme.html">WPOnion_wp_Theme</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-_wponion_field_id.html">_wponion_field_id</a></li>
+				<li><a href="function-_wponion_get_field_value.html">_wponion_get_field_value</a></li>
+				<li><a href="function-_wponion_valid_field.html">_wponion_valid_field</a></li>
+				<li><a href="function-wpongpo.html">wpongpo</a></li>
+				<li><a href="function-wponion__image_select_options.html">wponion__image_select_options</a></li>
+				<li><a href="function-wponion__options.html">wponion__options</a></li>
+				<li><a href="function-wponion__options_extra.html">wponion__options_extra</a></li>
+				<li><a href="function-wponion_add_element.html">wponion_add_element</a></li>
+				<li><a href="function-wponion_array_to_html_attributes.html">wponion_array_to_html_attributes</a></li>
+				<li><a href="function-wponion_async.html">wponion_async</a></li>
+				<li><a href="function-wponion_builder.html">wponion_builder</a></li>
+				<li><a href="function-wponion_card_img.html">wponion_card_img</a></li>
+				<li><a href="function-wponion_core_registry.html">wponion_core_registry</a></li>
+				<li><a href="function-wponion_dashboard_registry.html">wponion_dashboard_registry</a></li>
+				<li><a href="function-wponion_debug_assets.html">wponion_debug_assets</a></li>
+				<li><a href="function-wponion_delete_term_meta.html">wponion_delete_term_meta</a></li>
+				<li><a href="function-wponion_extract_font_variant.html">wponion_extract_font_variant</a></li>
+				<li><a href="function-wponion_field.html">wponion_field</a></li>
+				<li><a href="function-wponion_field_debug.html">wponion_field_debug</a></li>
+				<li><a href="function-wponion_field_value_class.html">wponion_field_value_class</a></li>
+				<li><a href="function-wponion_fonts_options_html.html">wponion_fonts_options_html</a></li>
+				<li><a href="function-wponion_get_all_fields_ids_and_defaults.html">wponion_get_all_fields_ids_and_defaults</a></li>
+				<li><a href="function-wponion_get_field_class.html">wponion_get_field_class</a></li>
+				<li><a href="function-wponion_get_fonts_array.html">wponion_get_fonts_array</a></li>
+				<li><a href="function-wponion_get_registry.html">wponion_get_registry</a></li>
+				<li><a href="function-wponion_get_registry_instance.html">wponion_get_registry_instance</a></li>
+				<li><a href="function-wponion_get_template.html">wponion_get_template</a></li>
+				<li><a href="function-wponion_get_template_html.html">wponion_get_template_html</a></li>
+				<li><a href="function-wponion_get_term_meta.html">wponion_get_term_meta</a></li>
+				<li><a href="function-wponion_get_var.html">wponion_get_var</a></li>
+				<li><a href="function-wponion_gif_image.html" class="invalid">wponion_gif_image</a></li>
+				<li><a href="function-wponion_google_fonts.html">wponion_google_fonts</a></li>
+				<li><a href="function-wponion_google_fonts_data.html">wponion_google_fonts_data</a></li>
+				<li><a href="function-wponion_hash_array.html">wponion_hash_array</a></li>
+				<li><a href="function-wponion_hash_string.html">wponion_hash_string</a></li>
+				<li><a href="function-wponion_html_class.html">wponion_html_class</a></li>
+				<li><a href="function-wponion_icon.html">wponion_icon</a></li>
+				<li><a href="function-wponion_icon_libraries.html">wponion_icon_libraries</a></li>
+				<li><a href="function-wponion_image_select_options.html">wponion_image_select_options</a></li>
+				<li><a href="function-wponion_init.html">wponion_init</a></li>
+				<li><a href="function-wponion_is_ajax.html">wponion_is_ajax</a></li>
+				<li><a href="function-wponion_is_debug.html">wponion_is_debug</a></li>
+				<li><a href="function-wponion_is_unarrayed.html">wponion_is_unarrayed</a></li>
+				<li><a href="function-wponion_jpg_image.html" class="invalid">wponion_jpg_image</a></li>
+				<li><a href="function-wponion_js_vars.html">wponion_js_vars</a></li>
+				<li><a href="function-wponion_load_asset.html">wponion_load_asset</a></li>
+				<li><a href="function-wponion_load_core_assets.html">wponion_load_core_assets</a></li>
+				<li><a href="function-wponion_load_sample_files.html">wponion_load_sample_files</a></li>
+				<li><a href="function-wponion_localize.html">wponion_localize</a></li>
+				<li><a href="function-wponion_localize_object_name.html">wponion_localize_object_name</a></li>
+				<li><a href="function-wponion_locate_template.html">wponion_locate_template</a></li>
+				<li><a href="function-wponion_metabox_registry.html">wponion_metabox_registry</a></li>
+				<li><a href="function-wponion_noninput_fields.html">wponion_noninput_fields</a></li>
+				<li><a href="function-wponion_plugin_localize.html">wponion_plugin_localize</a></li>
+				<li><a href="function-wponion_query.html">wponion_query</a></li>
+				<li><a href="function-wponion_read_json_files.html">wponion_read_json_files</a></li>
+				<li><a href="function-wponion_registry.html">wponion_registry</a></li>
+				<li><a href="function-wponion_required_value.html">wponion_required_value</a></li>
+				<li><a href="function-wponion_s3.html" class="invalid">wponion_s3</a></li>
+				<li><a href="function-wponion_s3_size.html" class="invalid">wponion_s3_size</a></li>
+				<li><a href="function-wponion_select_classes.html">wponion_select_classes</a></li>
+				<li><a href="function-wponion_select_frameworks.html">wponion_select_frameworks</a></li>
+				<li><a href="function-wponion_settings.html">wponion_settings</a></li>
+				<li><a href="function-wponion_settings_registry.html">wponion_settings_registry</a></li>
+				<li><a href="function-wponion_taxonomy_registry.html">wponion_taxonomy_registry</a></li>
+				<li><a href="function-wponion_theme_registry.html">wponion_theme_registry</a></li>
+				<li><a href="function-wponion_update_term_meta.html">wponion_update_term_meta</a></li>
+				<li><a href="function-wponion_user_profile_registry.html">wponion_user_profile_registry</a></li>
+				<li><a href="function-wponion_valid_user_input_field.html">wponion_valid_user_input_field</a></li>
+				<li><a href="function-wponion_validate_parent_section_ids.html">wponion_validate_parent_section_ids</a></li>
+				<li><a href="function-wponion_validate_select_framework.html">wponion_validate_select_framework</a></li>
+				<li><a href="function-wponion_value_registry.html">wponion_value_registry</a></li>
+				<li><a href="function-wponion_websafe_fonts.html">wponion_websafe_fonts</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WP_Background_Process</h1>
+
+
+	<div class="description">
+	<p>Abstract WP_Background_Process class.</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-WP_Async_Request.html"><span>WP_Async_Request</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>WP_Background_Process</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		
+		<b>Package:</b> WP-Background-Processing<br>
+
+				<b>Extends:</b>
+				WP_Async_Request<br>
+			<b>Located at</b> <a href="source-class-WP_Background_Process.html#10-507" title="Go to source code">core/vendors/A5hleyRich/wp-background-process.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WP_Background_Process.html#54-65" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>Initiate new background process</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Initiate new background process</p>
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WP_Async_Request.html#___construct">WP_Async_Request::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-WP_Background_Process.html#67-79" title="Go to source code">dispatch</a>( )</code>
+
+		<div class="description short">
+			<p>Dispatch</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Dispatch</p>
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WP_Async_Request.html#_dispatch">WP_Async_Request::dispatch()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="push_to_queue" id="_push_to_queue">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_push_to_queue">#</a>
+		<code><a href="source-class-WP_Background_Process.html#81-92" title="Go to source code">push_to_queue</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Push to queue</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Push to queue</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-WP_Background_Process.html#94-107" title="Go to source code">save</a>( )</code>
+
+		<div class="description short">
+			<p>Save queue</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Save queue</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-WP_Background_Process.html#109-123" title="Go to source code">update</a>( <span>string <var>$key</var></span>, <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Update queue</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update queue</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd>Key.</dd>
+					<dt><var>$data</var></dt>
+					<dd>Data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-WP_Background_Process.html#125-136" title="Go to source code">delete</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			<p>Delete queue</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Delete queue</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd>Key.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generate_key" id="_generate_key">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generate_key">#</a>
+		<code><a href="source-class-WP_Background_Process.html#138-153" title="Go to source code">generate_key</a>( <span>integer <var>$length</var> = <span class="php-num">64</span> </span> )</code>
+
+		<div class="description short">
+			<p>Generate key</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Generate key</p>
+
+<p>Generates a unique key based on microtime. Queue items are
+given a unique key so that they can be merged upon save.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$length</var></dt>
+					<dd>Length.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maybe_handle" id="_maybe_handle">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maybe_handle">#</a>
+		<code><a href="source-class-WP_Background_Process.html#155-180" title="Go to source code">maybe_handle</a>( )</code>
+
+		<div class="description short">
+			<p>Maybe process queue</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Maybe process queue</p>
+
+<p>Checks whether data exists within the queue and that
+the process is not already running.</p>
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WP_Async_Request.html#_maybe_handle">WP_Async_Request::maybe_handle()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_queue_empty" id="_is_queue_empty">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_queue_empty">#</a>
+		<code><a href="source-class-WP_Background_Process.html#182-207" title="Go to source code">is_queue_empty</a>( )</code>
+
+		<div class="description short">
+			<p>Is queue empty</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Is queue empty</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_process_running" id="_is_process_running">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_process_running">#</a>
+		<code><a href="source-class-WP_Background_Process.html#209-222" title="Go to source code">is_process_running</a>( )</code>
+
+		<div class="description short">
+			<p>Is process running</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Is process running</p>
+
+<p>Check whether the current process is already running
+in a background process.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lock_process" id="_lock_process">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lock_process">#</a>
+		<code><a href="source-class-WP_Background_Process.html#224-238" title="Go to source code">lock_process</a>( )</code>
+
+		<div class="description short">
+			<p>Lock process</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Lock process</p>
+
+<p>Lock the process so that multiple instances can't run simultaneously.
+Override if applicable, but the duration should be greater than that
+defined in the time_exceeded() method.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unlock_process" id="_unlock_process">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unlock_process">#</a>
+		<code><a href="source-class-WP_Background_Process.html#240-251" title="Go to source code">unlock_process</a>( )</code>
+
+		<div class="description short">
+			<p>Unlock process</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Unlock process</p>
+
+<p>Unlock the process so that other instances can spawn.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_batch" id="_get_batch">
+
+		<td class="attributes"><code>
+			 protected 
+
+			stdClass
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_batch">#</a>
+		<code><a href="source-class-WP_Background_Process.html#253-288" title="Go to source code">get_batch</a>( )</code>
+
+		<div class="description short">
+			<p>Get batch</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get batch</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					stdClass<br>Return the first batch from the queue
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle" id="_handle">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle">#</a>
+		<code><a href="source-class-WP_Background_Process.html#290-335" title="Go to source code">handle</a>( )</code>
+
+		<div class="description short">
+			<p>Handle</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handle</p>
+
+<p>Pass each queue item to the task handler, while remaining
+within server memory and time limit constraints.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="memory_exceeded" id="_memory_exceeded">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_memory_exceeded">#</a>
+		<code><a href="source-class-WP_Background_Process.html#337-355" title="Go to source code">memory_exceeded</a>( )</code>
+
+		<div class="description short">
+			<p>Memory exceeded</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Memory exceeded</p>
+
+<p>Ensures the batch process never exceeds 90%
+of the maximum WordPress memory.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_memory_limit" id="_get_memory_limit">
+
+		<td class="attributes"><code>
+			 protected 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_memory_limit">#</a>
+		<code><a href="source-class-WP_Background_Process.html#357-376" title="Go to source code">get_memory_limit</a>( )</code>
+
+		<div class="description short">
+			<p>Get memory limit</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get memory limit</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="time_exceeded" id="_time_exceeded">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_time_exceeded">#</a>
+		<code><a href="source-class-WP_Background_Process.html#378-395" title="Go to source code">time_exceeded</a>( )</code>
+
+		<div class="description short">
+			<p>Time exceeded.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Time exceeded.</p>
+
+<p>Ensures the batch never exceeds a sensible time limit.
+A timeout limit of 30s is common on shared hosting.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="complete" id="_complete">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_complete">#</a>
+		<code><a href="source-class-WP_Background_Process.html#397-406" title="Go to source code">complete</a>( )</code>
+
+		<div class="description short">
+			<p>Complete.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Complete.</p>
+
+<p>Override if applicable, but ensure that the below actions are
+performed, or, call parent::complete().</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="schedule_cron_healthcheck" id="_schedule_cron_healthcheck">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_schedule_cron_healthcheck">#</a>
+		<code><a href="source-class-WP_Background_Process.html#408-431" title="Go to source code">schedule_cron_healthcheck</a>( <span>mixed <var>$schedules</var></span> )</code>
+
+		<div class="description short">
+			<p>Schedule cron healthcheck</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Schedule cron healthcheck</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$schedules</var></dt>
+					<dd>Schedules.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle_cron_healthcheck" id="_handle_cron_healthcheck">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle_cron_healthcheck">#</a>
+		<code><a href="source-class-WP_Background_Process.html#433-454" title="Go to source code">handle_cron_healthcheck</a>( )</code>
+
+		<div class="description short">
+			<p>Handle cron healthcheck</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handle cron healthcheck</p>
+
+<p>Restart the background process if not already running
+and data exists in the queue.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="schedule_event" id="_schedule_event">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_schedule_event">#</a>
+		<code><a href="source-class-WP_Background_Process.html#456-463" title="Go to source code">schedule_event</a>( )</code>
+
+		<div class="description short">
+			<p>Schedule event</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Schedule event</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clear_scheduled_event" id="_clear_scheduled_event">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clear_scheduled_event">#</a>
+		<code><a href="source-class-WP_Background_Process.html#465-474" title="Go to source code">clear_scheduled_event</a>( )</code>
+
+		<div class="description short">
+			<p>Clear scheduled event</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Clear scheduled event</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cancel_process" id="_cancel_process">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cancel_process">#</a>
+		<code><a href="source-class-WP_Background_Process.html#476-491" title="Go to source code">cancel_process</a>( )</code>
+
+		<div class="description short">
+			<p>Cancel Process</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Cancel Process</p>
+
+<p>Stop processing queue items, clear cronjob and delete batch.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="task" id="_task">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_task">#</a>
+		<code><a href="source-class-WP_Background_Process.html#493-505" title="Go to source code">task</a>( <span>mixed <var>$item</var></span> )</code>
+
+		<div class="description short">
+			<p>Task</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Task</p>
+
+<p>Override this method to perform any actions required on each
+queue item. Return the modified item for further processing
+in the next pass through. Or, return false to remove the
+item from the queue.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$item</var></dt>
+					<dd>Queue item to iterate over.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-WP_Async_Request.html#methods">WP_Async_Request</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WP_Async_Request.html#_data">data()</a>, 
+			<a href="class-WP_Async_Request.html#_get_post_args">get_post_args()</a>, 
+			<a href="class-WP_Async_Request.html#_get_query_args">get_query_args()</a>, 
+			<a href="class-WP_Async_Request.html#_get_query_url">get_query_url()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="action" id="$action">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Background_Process.html#18-26" title="Go to source code"><var>$action</var></a>
+
+			<div class="description short">
+				<p>Action</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Action</p>
+
+<p>(default value: 'background_process')</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$action" class="anchor">#</a>
+				<code><span class="php-quote">'background_process'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="start_time" id="$start_time">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Background_Process.html#28-36" title="Go to source code"><var>$start_time</var></a>
+
+			<div class="description short">
+				<p>Start time of current process.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Start time of current process.</p>
+
+<p>(default value: 0)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$start_time" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="cron_hook_identifier" id="$cron_hook_identifier">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Background_Process.html#38-44" title="Go to source code"><var>$cron_hook_identifier</var></a>
+
+			<div class="description short">
+				<p>Cron_hook_identifier</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cron_hook_identifier</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$cron_hook_identifier" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="cron_interval_identifier" id="$cron_interval_identifier">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Background_Process.html#46-52" title="Go to source code"><var>$cron_interval_identifier</var></a>
+
+			<div class="description short">
+				<p>Cron_interval_identifier</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cron_interval_identifier</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$cron_interval_identifier" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-WP_Async_Request.html#properties">WP_Async_Request</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WP_Async_Request.html#$data"><var>$data</var></a>, 
+			<a href="class-WP_Async_Request.html#$identifier"><var>$identifier</var></a>, 
+			<a href="class-WP_Async_Request.html#$prefix"><var>$prefix</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WPOnion\Bridge\Value</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.JS.html">
+						JS					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Value.html">
+						Value					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WPOnion.Bridge.Field_Builder.html">Field_Builder</a></li>
+				<li><a href="class-WPOnion.Bridge.Module.html">Module</a></li>
+				<li class="active"><a href="class-WPOnion.Bridge.Value.html">Value</a></li>
+				<li><a href="class-WPOnion.Bridge.value_loop.html">value_loop</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-WPOnion.Bridge.html" title="Summary of WPOnion\Bridge"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Value</h1>
+
+
+	<div class="description">
+	<p>Class Value</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-WPOnion.Bridge.html"><span>WPOnion\Bridge</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+			<a href="class-WPOnion.Core.Array_Finder.html"><span>WPOnion\Core\Array_Finder</span></a>
+			
+			 implements 
+<span>ArrayAccess</span>, 
+			
+<span>Countable</span>, 
+			
+<span>Iterator</span>, 
+			
+<span>Serializable</span>
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>WPOnion\Bridge\Value</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-WPOnion.Bridge.value_loop.html">WPOnion\Bridge\value_loop</a>, 
+			<a href="class-WPOnion.Value.accordion.html">WPOnion\Value\accordion</a>, 
+			<a href="class-WPOnion.Value.switcher.html">WPOnion\Value\switcher</a>, 
+			<a href="class-WPOnion.Value.text.html">WPOnion\Value\text</a>, 
+			<a href="class-WPOnion.Value.textarea.html">WPOnion\Value\textarea</a>, 
+			<a href="class-WPOnion.Value.checkbox.html">WPOnion\Value\checkbox</a>, 
+			<a href="class-WPOnion.Value.color_palette.html">WPOnion\Value\color_palette</a>, 
+			<a href="class-WPOnion.Value.color_picker.html">WPOnion\Value\color_picker</a>, 
+			<a href="class-WPOnion.Value.fieldset.html">WPOnion\Value\fieldset</a>, 
+			<a href="class-WPOnion.Value.font_picker.html">WPOnion\Value\font_picker</a>, 
+			<a href="class-WPOnion.Value.image.html">WPOnion\Value\image</a>, 
+			<a href="class-WPOnion.Value.image_select.html">WPOnion\Value\image_select</a>, 
+			<a href="class-WPOnion.Value.radio.html">WPOnion\Value\radio</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-WPOnion.Value.gallery.html">WPOnion\Value\gallery</a>, 
+			<a href="class-WPOnion.Value.key_value.html">WPOnion\Value\key_value</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-WPOnion.html">WPOnion</a>\<a href="namespace-WPOnion.Bridge.html">Bridge</a><br>
+		<b>Package:</b> WPOnion\Bridge<br>
+
+				<b>Author:</b>
+				Varun Sridharan <a href="&#109;&#x61;i&#108;&#x74;&#111;&#58;&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>
+				<b>Since:</b>
+				1.0<br>
+			<b>Located at</b> <a href="source-class-WPOnion.Bridge.Value.html#18-311" title="Go to source code">core/abstract/value.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#54-71" title="Go to source code">__construct</a>( <span>array <var>$field</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$value</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$unique</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Value constructor.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Value constructor.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$unique</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WPOnion.Core.Array_Finder.html#___construct">WPOnion\Core\Array_Finder::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="init_class" id="_init_class">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_init_class">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#73-77" title="Go to source code">init_class</a>( )</code>
+
+		<div class="description short">
+			<p>Calls After Basesetup is done.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Calls After Basesetup is done.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="value" id="_value">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_value">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#79-86" title="Go to source code">value</a>( )</code>
+
+		<div class="description short">
+			<p>returns value.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>returns value.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="init_subfields" id="_init_subfields">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_init_subfields">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#88-112" title="Go to source code">init_subfields</a>( <span> <var>$fields</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+		<div class="description short">
+			<p>Simple Hook To Init Its SubFields.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Simple Hook To Init Its SubFields.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="init_subfield" id="_init_subfield">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_init_subfield">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#114-133" title="Go to source code">init_subfield</a>( <span> <var>$field</var></span> )</code>
+
+		<div class="description short">
+			<p>Creates An Instance for subfield.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Creates An Instance for subfield.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaults" id="_defaults">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_defaults">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#135-146" title="Go to source code">defaults</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Default Args.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Default Args.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WPOnion.Bridge.html#_defaults">WPOnion\Bridge::defaults()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+
+			array|false|null|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#148-158" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			<p>Magic Method to convert class into string.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Magic Method to convert class into string.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|false|null|string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add_sub" id="_add_sub">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add_sub">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#160-170" title="Go to source code">add_sub</a>( <span> <var>$field_id</var></span>, <span> <var>&amp; $instance</var></span> )</code>
+
+		<div class="description short">
+			<p>Adds Subfields Instance To Array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Adds Subfields Instance To Array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field_id</var></dt>
+					<dd></dd>
+					<dt><var>$instance</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sub" id="_sub">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sub">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#172-184" title="Go to source code">sub</a>( <span> <var>$field_id</var></span> )</code>
+
+		<div class="description short">
+			<p>Returns Sub Fields Instance if exists.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Sub Fields Instance if exists.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field_id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean|mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="raw" id="_raw">
+
+		<td class="attributes"><code>
+			 public 
+
+			array|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_raw">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#186-193" title="Go to source code">raw</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Raw Value Output.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Raw Value Output.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|null
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="html" id="_html">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_html">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#195-205" title="Go to source code">html</a>( <span>string <var>$tag</var> = <span class="php-quote">'p'</span></span>, <span>string <var>$attributes</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Returns Value into a html tag.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Value into a html tag.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tag</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_html" id="__html">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__html">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#207-215" title="Go to source code">_html</a>( <span>string <var>$tag</var> = <span class="php-quote">'p'</span></span>, <span>string <var>$attributes</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>echo value into a html tag.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>echo value into a html tag.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tag</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="call_at_path" id="_call_at_path">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_call_at_path">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#217-260" title="Go to source code">call_at_path</a>( <span> <var>$path</var></span>, <span>callable <var>$callback</var></span>, <span>boolean <var>$create_path</var> = <span class="php-keyword1">false</span></span>, <span>null <var>&amp; $current_offset</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd></dd>
+					<dt><var>$callback</var></dt>
+					<dd></dd>
+					<dt><var>$create_path</var></dt>
+					<dd></dd>
+					<dt><var>$current_offset</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WPOnion.Core.Array_Finder.html#_call_at_path">WPOnion\Core\Array_Finder::call_at_path()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+
+			false|WPonion\Bridge\Value|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#262-291" title="Go to source code">get</a>( <span>string|integer|null <var>$path</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Return a value from the array corresponding to the path.
+If the path is not set in the array, then $default is returned.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Return a value from the array corresponding to the path.
+If the path is not set in the array, then $default is returned.</p>
+
+<p>ex:
+$a = ['a' => ['b' => 'yeah']];
+echo $this->get('a.b'); // yeah
+echo $this->get('a.b.c', 'nope'); // nope</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd>Path to the value. If null, return all the content.</dd>
+					<dt><var>$default</var></dt>
+					<dd>Default value to return when path is not contained in the array.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					false|WPonion\Bridge\Value|mixed
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-WPOnion.Core.Array_Finder.html#_get">WPOnion\Core\Array_Finder::get()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="active" id="_active">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_active">#</a>
+		<code><a href="source-class-WPOnion.Bridge.Value.html#293-310" title="Go to source code">active</a>( <span>string <var>$key</var> = <span class="php-quote">''</span> </span> )</code>
+
+		<div class="description short">
+			<p>Checks if field is checked or not.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Checks if field is checked or not.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-WPOnion.Core.Array_Finder.html#methods">WPOnion\Core\Array_Finder</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Core.Array_Finder.html#_change_separator">change_separator()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_count">count()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_current">current()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_explode">explode()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_implode">implode()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_key">key()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_next">next()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_offsetExists">offsetExists()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_offsetGet">offsetGet()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_offsetSet">offsetSet()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_offsetUnset">offsetUnset()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_rewind">rewind()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_serialize">serialize()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_set">set()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_unserialize">unserialize()</a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#_valid">valid()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-WPOnion.Bridge.html#methods">WPOnion\Bridge</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Bridge.html#__action">_action()</a>, 
+			<a href="class-WPOnion.Bridge.html#__filter">_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_add_action">add_action()</a>, 
+			<a href="class-WPOnion.Bridge.html#_add_filter">add_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_catch_output">catch_output()</a>, 
+			<a href="class-WPOnion.Bridge.html#_generate_filter_slug">generate_filter_slug()</a>, 
+			<a href="class-WPOnion.Bridge.html#_get_action_filter_slugs">get_action_filter_slugs()</a>, 
+			<a href="class-WPOnion.Bridge.html#_global_action_filter">global_action_filter()</a>, 
+			<a href="class-WPOnion.Bridge.html#_handle_data">handle_data()</a>, 
+			<a href="class-WPOnion.Bridge.html#_module">module()</a>, 
+			<a href="class-WPOnion.Bridge.html#_option">option()</a>, 
+			<a href="class-WPOnion.Bridge.html#_parse_args">parse_args()</a>, 
+			<a href="class-WPOnion.Bridge.html#_plugin_id">plugin_id()</a>, 
+			<a href="class-WPOnion.Bridge.html#_set_args">set_args()</a>, 
+			<a href="class-WPOnion.Bridge.html#_set_option">set_option()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="unique" id="$unique">
+		<td class="attributes"><code>
+			protected  
+			null
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.Value.html#26-31" title="Go to source code"><var>$unique</var></a>
+
+			<div class="description short">
+				<p>Stores Database Slug.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Database Slug.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$unique" class="anchor">#</a>
+				<code><span class="php-keyword1">null</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="subfields" id="$subfields">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.Value.html#33-38" title="Go to source code"><var>$subfields</var></a>
+
+			<div class="description short">
+				<p>Stores Subfields Instances.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Subfields Instances.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$subfields" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="field" id="$field">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.Value.html#40-45" title="Go to source code"><var>$field</var></a>
+
+			<div class="description short">
+				<p>Stores Fields Args</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Fields Args</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$field" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="value" id="$value">
+		<td class="attributes"><code>
+			protected  
+			array|mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WPOnion.Bridge.Value.html#47-52" title="Go to source code"><var>$value</var></a>
+
+			<div class="description short">
+				<p>Stores Fields Value</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Fields Value</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$value" class="anchor">#</a>
+				<code><span class="php-keyword1">null</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-WPOnion.Core.Array_Finder.html#properties">WPOnion\Core\Array_Finder</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Core.Array_Finder.html#$contents"><var>$contents</var></a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#$path_separator"><var>$path_separator</var></a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#$position"><var>$position</var></a>, 
+			<a href="class-WPOnion.Core.Array_Finder.html#$variable"><var>$variable</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-WPOnion.Bridge.html#properties">WPOnion\Bridge</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WPOnion.Bridge.html#$module"><var>$module</var></a>, 
+			<a href="class-WPOnion.Bridge.html#$plugin_id"><var>$plugin_id</var></a>, 
+			<a href="class-WPOnion.Bridge.html#$settings"><var>$settings</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

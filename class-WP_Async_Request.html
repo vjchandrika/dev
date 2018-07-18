@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WP_Async_Request</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.html">
+						WPOnion<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Bridge.html">
+						Bridge					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Core.html">
+						Core					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.DB.html">
+						DB					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Field.html">
+						Field					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.JS.html">
+						JS					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Modules.html">
+						Modules<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.html">
+						Customize<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-WPOnion.Modules.Customize.Control.html">
+						Control					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-WPOnion.Registry.html">
+						Registry					</a>
+
+						</li>
+				<li>
+					<a href="namespace-WPOnion.Value.html">
+						Value					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Parsedown.html">Parsedown</a></li>
+				<li class="active"><a href="class-WP_Async_Request.html">WP_Async_Request</a></li>
+				<li><a href="class-WP_Background_Process.html">WP_Background_Process</a></li>
+				<li><a href="class-WPOnion_modern_Theme.html">WPOnion_modern_Theme</a></li>
+				<li><a href="class-WPOnion_wp_Theme.html">WPOnion_wp_Theme</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-_wponion_field_id.html">_wponion_field_id</a></li>
+				<li><a href="function-_wponion_get_field_value.html">_wponion_get_field_value</a></li>
+				<li><a href="function-_wponion_valid_field.html">_wponion_valid_field</a></li>
+				<li><a href="function-wpongpo.html">wpongpo</a></li>
+				<li><a href="function-wponion__image_select_options.html">wponion__image_select_options</a></li>
+				<li><a href="function-wponion__options.html">wponion__options</a></li>
+				<li><a href="function-wponion__options_extra.html">wponion__options_extra</a></li>
+				<li><a href="function-wponion_add_element.html">wponion_add_element</a></li>
+				<li><a href="function-wponion_array_to_html_attributes.html">wponion_array_to_html_attributes</a></li>
+				<li><a href="function-wponion_async.html">wponion_async</a></li>
+				<li><a href="function-wponion_builder.html">wponion_builder</a></li>
+				<li><a href="function-wponion_card_img.html">wponion_card_img</a></li>
+				<li><a href="function-wponion_core_registry.html">wponion_core_registry</a></li>
+				<li><a href="function-wponion_dashboard_registry.html">wponion_dashboard_registry</a></li>
+				<li><a href="function-wponion_debug_assets.html">wponion_debug_assets</a></li>
+				<li><a href="function-wponion_delete_term_meta.html">wponion_delete_term_meta</a></li>
+				<li><a href="function-wponion_extract_font_variant.html">wponion_extract_font_variant</a></li>
+				<li><a href="function-wponion_field.html">wponion_field</a></li>
+				<li><a href="function-wponion_field_debug.html">wponion_field_debug</a></li>
+				<li><a href="function-wponion_field_value_class.html">wponion_field_value_class</a></li>
+				<li><a href="function-wponion_fonts_options_html.html">wponion_fonts_options_html</a></li>
+				<li><a href="function-wponion_get_all_fields_ids_and_defaults.html">wponion_get_all_fields_ids_and_defaults</a></li>
+				<li><a href="function-wponion_get_field_class.html">wponion_get_field_class</a></li>
+				<li><a href="function-wponion_get_fonts_array.html">wponion_get_fonts_array</a></li>
+				<li><a href="function-wponion_get_registry.html">wponion_get_registry</a></li>
+				<li><a href="function-wponion_get_registry_instance.html">wponion_get_registry_instance</a></li>
+				<li><a href="function-wponion_get_template.html">wponion_get_template</a></li>
+				<li><a href="function-wponion_get_template_html.html">wponion_get_template_html</a></li>
+				<li><a href="function-wponion_get_term_meta.html">wponion_get_term_meta</a></li>
+				<li><a href="function-wponion_get_var.html">wponion_get_var</a></li>
+				<li><a href="function-wponion_gif_image.html" class="invalid">wponion_gif_image</a></li>
+				<li><a href="function-wponion_google_fonts.html">wponion_google_fonts</a></li>
+				<li><a href="function-wponion_google_fonts_data.html">wponion_google_fonts_data</a></li>
+				<li><a href="function-wponion_hash_array.html">wponion_hash_array</a></li>
+				<li><a href="function-wponion_hash_string.html">wponion_hash_string</a></li>
+				<li><a href="function-wponion_html_class.html">wponion_html_class</a></li>
+				<li><a href="function-wponion_icon.html">wponion_icon</a></li>
+				<li><a href="function-wponion_icon_libraries.html">wponion_icon_libraries</a></li>
+				<li><a href="function-wponion_image_select_options.html">wponion_image_select_options</a></li>
+				<li><a href="function-wponion_init.html">wponion_init</a></li>
+				<li><a href="function-wponion_is_ajax.html">wponion_is_ajax</a></li>
+				<li><a href="function-wponion_is_debug.html">wponion_is_debug</a></li>
+				<li><a href="function-wponion_is_unarrayed.html">wponion_is_unarrayed</a></li>
+				<li><a href="function-wponion_jpg_image.html" class="invalid">wponion_jpg_image</a></li>
+				<li><a href="function-wponion_js_vars.html">wponion_js_vars</a></li>
+				<li><a href="function-wponion_load_asset.html">wponion_load_asset</a></li>
+				<li><a href="function-wponion_load_core_assets.html">wponion_load_core_assets</a></li>
+				<li><a href="function-wponion_load_sample_files.html">wponion_load_sample_files</a></li>
+				<li><a href="function-wponion_localize.html">wponion_localize</a></li>
+				<li><a href="function-wponion_localize_object_name.html">wponion_localize_object_name</a></li>
+				<li><a href="function-wponion_locate_template.html">wponion_locate_template</a></li>
+				<li><a href="function-wponion_metabox_registry.html">wponion_metabox_registry</a></li>
+				<li><a href="function-wponion_noninput_fields.html">wponion_noninput_fields</a></li>
+				<li><a href="function-wponion_plugin_localize.html">wponion_plugin_localize</a></li>
+				<li><a href="function-wponion_query.html">wponion_query</a></li>
+				<li><a href="function-wponion_read_json_files.html">wponion_read_json_files</a></li>
+				<li><a href="function-wponion_registry.html">wponion_registry</a></li>
+				<li><a href="function-wponion_required_value.html">wponion_required_value</a></li>
+				<li><a href="function-wponion_s3.html" class="invalid">wponion_s3</a></li>
+				<li><a href="function-wponion_s3_size.html" class="invalid">wponion_s3_size</a></li>
+				<li><a href="function-wponion_select_classes.html">wponion_select_classes</a></li>
+				<li><a href="function-wponion_select_frameworks.html">wponion_select_frameworks</a></li>
+				<li><a href="function-wponion_settings.html">wponion_settings</a></li>
+				<li><a href="function-wponion_settings_registry.html">wponion_settings_registry</a></li>
+				<li><a href="function-wponion_taxonomy_registry.html">wponion_taxonomy_registry</a></li>
+				<li><a href="function-wponion_theme_registry.html">wponion_theme_registry</a></li>
+				<li><a href="function-wponion_update_term_meta.html">wponion_update_term_meta</a></li>
+				<li><a href="function-wponion_user_profile_registry.html">wponion_user_profile_registry</a></li>
+				<li><a href="function-wponion_valid_user_input_field.html">wponion_valid_user_input_field</a></li>
+				<li><a href="function-wponion_validate_parent_section_ids.html">wponion_validate_parent_section_ids</a></li>
+				<li><a href="function-wponion_validate_select_framework.html">wponion_validate_select_framework</a></li>
+				<li><a href="function-wponion_value_registry.html">wponion_value_registry</a></li>
+				<li><a href="function-wponion_websafe_fonts.html">wponion_websafe_fonts</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WP_Async_Request</h1>
+
+
+	<div class="description">
+	<p>Abstract WP_Async_Request class.</p>
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-WP_Background_Process.html">WP_Background_Process</a>, 
+			<a href="class-WPOnion.Async_Request.html">WPOnion\Async_Request</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		
+		<b>Package:</b> WP-Background-Processing<br>
+
+			<b>Located at</b> <a href="source-class-WP_Async_Request.html#10-162" title="Go to source code">core/vendors/A5hleyRich/wp-async-request.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-WP_Async_Request.html#55-63" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>Initiate new async request</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Initiate new async request</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="_data">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_data">#</a>
+		<code><a href="source-class-WP_Async_Request.html#65-76" title="Go to source code">data</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Set data used during the request</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set data used during the request</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd>Data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+
+			array|WP_Error
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-WP_Async_Request.html#78-88" title="Go to source code">dispatch</a>( )</code>
+
+		<div class="description short">
+			<p>Dispatch the async request</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Dispatch the async request</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array|WP_Error
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_query_args" id="_get_query_args">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_query_args">#</a>
+		<code><a href="source-class-WP_Async_Request.html#90-104" title="Go to source code">get_query_args</a>( )</code>
+
+		<div class="description short">
+			<p>Get query args</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get query args</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_query_url" id="_get_query_url">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_query_url">#</a>
+		<code><a href="source-class-WP_Async_Request.html#106-117" title="Go to source code">get_query_url</a>( )</code>
+
+		<div class="description short">
+			<p>Get query URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get query URL</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_post_args" id="_get_post_args">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_post_args">#</a>
+		<code><a href="source-class-WP_Async_Request.html#119-136" title="Go to source code">get_post_args</a>( )</code>
+
+		<div class="description short">
+			<p>Get post args</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get post args</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maybe_handle" id="_maybe_handle">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maybe_handle">#</a>
+		<code><a href="source-class-WP_Async_Request.html#138-152" title="Go to source code">maybe_handle</a>( )</code>
+
+		<div class="description short">
+			<p>Maybe handle</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Maybe handle</p>
+
+<p>Check for correct nonce and pass to handler.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle" id="_handle">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle">#</a>
+		<code><a href="source-class-WP_Async_Request.html#154-160" title="Go to source code">handle</a>( )</code>
+
+		<div class="description short">
+			<p>Handle</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Handle</p>
+
+<p>Override this method to perform any actions required
+during the async request.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="prefix" id="$prefix">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Async_Request.html#17-25" title="Go to source code"><var>$prefix</var></a>
+
+			<div class="description short">
+				<p>Prefix</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Prefix</p>
+
+<p>(default value: 'wp')</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$prefix" class="anchor">#</a>
+				<code><span class="php-quote">'wp'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="action" id="$action">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Async_Request.html#27-35" title="Go to source code"><var>$action</var></a>
+
+			<div class="description short">
+				<p>Action</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Action</p>
+
+<p>(default value: 'async_request')</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$action" class="anchor">#</a>
+				<code><span class="php-quote">'async_request'</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="identifier" id="$identifier">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Async_Request.html#37-43" title="Go to source code"><var>$identifier</var></a>
+
+			<div class="description short">
+				<p>Identifier</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Identifier</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$identifier" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WP_Async_Request.html#45-53" title="Go to source code"><var>$data</var></a>
+
+			<div class="description short">
+				<p>Data</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Data</p>
+
+<p>(default value: array())</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$data" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
